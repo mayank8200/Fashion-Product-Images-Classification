@@ -13,8 +13,7 @@ Implement web application for image captioning using Deep neural network for Fas
 Product Images (Small) dataset.
 Requirement:
 1. Design model with at least 90% validation accuracy.
-2. Deploy model serving
-3. Create basic ui for given problem
+2. Create basic ui for given problem
 a. Upload image
 b. Generated text
 (Dataset link: https://www.kaggle.com/paramaggarwal/fashion-productimagessmall)
