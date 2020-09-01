@@ -42,7 +42,7 @@ def upload():
 
         from keras.models import load_model
         new_model = load_model('model.h5')
-        new_model_cat = load_model('mysubnewmodel.h5')
+        new_model_cat = load_model('MsubCatmodel.h5')
 
         new_model.summary()
         test_image = image.load_img('images1\\'+filename,target_size=(60,80))
