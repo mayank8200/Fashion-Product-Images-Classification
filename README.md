@@ -4,6 +4,7 @@
 [![forthebadge made-with-python](https://forthebadge.com/images/badges/built-by-developers.svg)](https://www.python.org/)<br>
 [![forthebadge made-with-python](https://forthebadge.com/images/badges/check-it-out.svg)](https://www.python.org/)<br>
 [![forthebadge made-with-python](https://forthebadge.com/images/badges/made-with-python.svg)](https://www.python.org/)<br>
+[![forthebadge made-with-python](https://forthebadge.com/images/badges/built-with-love.svg)](https://www.python.org/)<br>
 [![forthebadge made-with-python](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://www.python.org/)<br>
 
 ## Problem Statement
@@ -41,23 +42,17 @@ File can be uploaded either by drag and drop or by clicking on the empty space.
 
 
 ![alt text](https://i.ibb.co/BChkTy8/fname.jpg)
-# First Image Predicted
+# Prediction on Various Images
 When the file is uploaded you can see the category and sub-category is printed.
 
 
 ![alt text](https://i.ibb.co/phGgJLc/output.jpg)
-# Second Image Predicted
-By Clicking on View data you can view the complete table of data where you can choose two option either to group by year or username.
 
 
 ![alt text](https://i.ibb.co/V3sJ68f/output2.jpg)
-# Third Image Predicted
-Using this you can group the data according to the username for better aggregation techniques
 
 
 ![alt text](https://i.ibb.co/58F7Bh0/output3.jpg)
-# Fourth Image Predicted
-Using this you can group the data according to the year for better aggregation techniques
 
 
 ![alt text](https://i.ibb.co/gFJ1Smp/output4.jpg)
