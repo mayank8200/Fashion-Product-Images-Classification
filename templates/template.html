@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Predicted Image</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <style>
+    ::placeholder {
+      color: rgb(13, 13, 14);
+      opacity: 0.8;
+      /* Firefox */
+      font-weight: bold;
+    }
+  </style>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+  <script>
+    $("#file-picker").change(function() {
+      var input = document.getElementById('file-picker');
+      for (var i = 0; i < input.files.length; i++) {
+        var ext = input.files[i].name.substring(input.files[i].name.lastIndexOf('.') + 1).toLowerCase()
+        if ((ext == 'jpg') || (ext == 'png')) {
+          $("#msg").text("Files are supported")
+        } else {
+          $("#msg").text("Files are NOT supported")
+          document.getElementById("file-picker").value = "";
+        }
+      }
+    });
+  </script>
+
+<style media="screen">
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #535c68;
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 640px;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  /*border: 0.5px solid rgba(130, 130, 130, 0.25);*/
+  /*box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1),
+              0 0 0 1px rgba(0, 0, 0, 0.1);*/
+}
+
+h1 {
+  color: #130f40;
+  font-family: 'Varela Round', sans-serif;
+  letter-spacing: -.5px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.upload-container {
+  background-color: rgb(239, 239, 239);
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.border-container {
+  border: 5px dashed rgba(198, 198, 198, 0.65);
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.border-container p {
+  color: #130f40;
+  font-weight: 600;
+  font-size: 1.1em;
+  letter-spacing: -1px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  opacity: 0.65;
+}
+
+#file-browser {
+  text-decoration: none;
+  color: rgb(22,42,255);
+  border-bottom: 3px dotted rgba(22, 22, 255, 0.85);
+}
+
+#file-browser:hover {
+  color: rgb(0, 0, 255);
+  border-bottom: 3px dotted rgba(0, 0, 255, 0.85);
+}
+
+</style>
+
+</head>
+<body>
+    <h3>Fashion Image-Small Classification</h3>
+    <div class="wrapper" style="padding-top:0px;">
+      <div class="container">
+        <h3 style='color:black;'>Your Uploaded Image:</h3>
+        <img src=" {{url_for('send_image', filename=image_name)}}" style="width:200px;height:200px;">
+        <h4 style='color:black;'>Master Category Prediction of your Uploaded Image : {{text}}</h4>
+		<h4 style='color:black;'>Sub Prediction of your Uploaded Image : {{text2}}</h4>
+      </div>
+    </div>
+</body>
+
+</html>
