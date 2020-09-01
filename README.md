@@ -46,17 +46,17 @@ When the file is uploaded you can see the category and sub-category is printed.
 
 
 
-![alt text](https://i.ibb.co/phGgJLc/output.jpg)
+![alt text](https://i.ibb.co/phGgJLc/output.jpg)<br>
 
 
 
 
-![alt text](https://i.ibb.co/V3sJ68f/output2.jpg)
+![alt text](https://i.ibb.co/V3sJ68f/output2.jpg)<br>
 
 
 
 
-![alt text](https://i.ibb.co/58F7Bh0/output3.jpg)
+![alt text](https://i.ibb.co/58F7Bh0/output3.jpg)<br>
 
 
 
