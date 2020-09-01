@@ -1,5 +1,5 @@
 # Fashion Product Images Classification
- Thr growing e-commerce industry presents us with a large dataset waiting to be scraped and researched upon. In addition to professionally shot high resolution product images, we also have multiple label attributes describing the product which was manually entered while cataloging. To add to this, we also have descriptive text that comments on the product characteristics.
+The growing e-commerce industry presents us with a large dataset waiting to be scraped and researched upon. In addition to professionally shot high resolution product images, we also have multiple label attributes describing the product which was manually entered while cataloging. To add to this, we also have descriptive text that comments on the product characteristics.
 
 [![forthebadge made-with-python](https://forthebadge.com/images/badges/built-by-developers.svg)](https://www.python.org/)<br>
 [![forthebadge made-with-python](https://forthebadge.com/images/badges/check-it-out.svg)](https://www.python.org/)<br>
