@@ -20,11 +20,14 @@ b. Generated text
 ```
 # How To Run This Code
 ```
-1) First Download the code or clone this repository
-2) Open Python Terminal or Anaconda Prompt where Flask and Python is installed
-3) Navigate to the directory where the code is downloaded
-4) Run code - python app.py
+1. Open terminal / command prompt where python is installed.
+2. Locate the Project folder.
+3. type "python app.py" (without "").
+4. There will be some address like 127.0.0.1:5000/ .
+5. Copy it and open in Web Browser.
+6. Go to terminal / command prompt and press ctrl + c to stop the project.
 ```
+
 # Technology Used
 [![Generic badge](https://img.shields.io/badge/Python-ML-<COLOR>.svg)](https://shields.io/)<br>
 [![Generic badge](https://img.shields.io/badge/FrontEnd-Flask-<COLOR>.svg)](https://shields.io/)<br>
@@ -33,7 +36,6 @@ b. Generated text
 
 # Homepage
 The homepage of the web app where you get an option to upload new image.
-
 
 ![alt text](https://i.ibb.co/LJGwCr4/home.jpg)
 # After Uploading File
@@ -62,4 +64,6 @@ When the file is uploaded you can see the category and sub-category is printed.
 
 
 ![alt text](https://i.ibb.co/gFJ1Smp/output4.jpg)
+
+## Feel Free to contact if you have any project related doubt!
 
